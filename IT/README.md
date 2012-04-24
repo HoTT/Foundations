@@ -21,6 +21,19 @@ statements:
   * weak natural numbers reduce to weak W-types
   * second number class reduces to weak W-types
   
+## How to compile
+
+Starting in the `Foundations` directory:
+
+    cd Generalities
+    coqc uuu.v
+    coqc uu0.v
+    cd ../IT
+    make
+
+That should be it. Note that you need Coq 8.3pl3 or newer.
+
+
 ## The organization of files
 
 1. We rely only on two files from Foundations, namely:
