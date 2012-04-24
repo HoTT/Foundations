@@ -3,9 +3,6 @@
     Dependent elim + beta for Two
 **)
 
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-
 Require Export identity.
 
 (* We assume the simple rules for Two. *)

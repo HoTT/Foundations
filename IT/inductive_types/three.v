@@ -1,9 +1,6 @@
 (** Rules for the weak inductive type Three with three constructors and
     propositional beta rules. **)
 
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-
 Require Export identity.
 
 (* Formation rule. *)

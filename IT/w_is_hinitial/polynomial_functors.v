@@ -1,6 +1,3 @@
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-
 Unset Automatic Introduction.
 Require Export uu0.
 Require Export identity.

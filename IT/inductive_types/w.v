@@ -1,8 +1,5 @@
 (** Rules for the inductive type W A B, the weak version of W-types over A and B. **)
 
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-
 Require Export identity.
 
 (* Formation rule. *)

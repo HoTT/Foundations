@@ -10,11 +10,6 @@ we get
 
 *)                                               
 
-
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-Add Rec LoadPath "../inductive_types".
-
 Unset Automatic Introduction.
 Require Export uu0.
 Require Export identity.

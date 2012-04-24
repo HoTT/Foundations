@@ -1,8 +1,5 @@
 (** Homotopy-initial two-algebras. **)
 
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-
 Require Export identity.
 
 (* A two-algebra consists of a type C and two terms (c_f c_t : C). *)

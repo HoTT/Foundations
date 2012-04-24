@@ -1,9 +1,6 @@
 (** Simple (non-dependent) rules for the inductive type Two. Eta rules are no
     longer derivable and hence are included as axioms. **)
 
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-
 Require Export identity.
 
 (* Formation rule. *)

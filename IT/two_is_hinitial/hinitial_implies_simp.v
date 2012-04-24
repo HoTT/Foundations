@@ -3,9 +3,6 @@
     Simple elim + beta + eta_1 + eta_2 for Two
 **)
 
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-
 Require Export identity.
 Require Export two_algebras.
 

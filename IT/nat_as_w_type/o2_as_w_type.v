@@ -9,11 +9,6 @@
 (* reflexivity terms when applied to functions that are already in   *)
 (* eta-expanded form                                                 *) 
 
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-Add Rec LoadPath "../inductive_types".
-Add Rec LoadPath "../nat_as_w_type".
-
 Unset Automatic Introduction.
 
 Require Export nat_as_w_type.

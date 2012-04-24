@@ -1,6 +1,3 @@
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-
 Unset Automatic Introduction.
 Require Export uu0.
 Require Export identity.
@@ -130,7 +127,6 @@ intros.
 set (X := (p1 XX)).
 set (s_X := (p2 XX) : (P_0 _ B X) -> X).
 set (P :=  (top_shift XX E x u)).
-Check  (transportb P (eta_path u)).
 assert (e_1 : Id 
          (transportb P (eta_path u))
          (pathsectiontransportb (B x) X E (eta_path u))).
@@ -302,8 +298,6 @@ Defined.
 
 (** We now show that the projection function    
  p1 : (Sigma w : W) --> W is an algebra map *)
-
-Check p1.
 
 Definition isalgmapp1 : isalgmap _ B XX WW (@p1 W E).
 Proof.

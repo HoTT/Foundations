@@ -16,14 +16,13 @@ COQC:=coqc
 COQDEP:=coqdep
 
 # instead of Add LoadPath we pass them to coqc/coqide/coqtop
-COQINCLUDES:=-R "../Generalities" "Foundations" \
-	-R "../hlevel1" "Foundations" \
-	-R "../hlevel2" "Foundations" \
-	-R "identity/" "IT" \
-	-R "inductive_types/" "IT" \
-	-R "nat_as_w_type/" "IT" \
-	-R "two_is_hinitial/" "IT" \
-	-R "w_is_hinitial/" "IT"
+
+COQINCLUDES:=-I "../Generalities" \
+	-I "./identity" \
+	-I "./inductive_types" \
+	-I "./w_is_hinitial" \
+	-I "./two_is_hinitial" \
+	-I "./nat_as_w_type"
 
 # recursively find all .v files and compile them
 VFILES:=$(shell find . -name '*.v')

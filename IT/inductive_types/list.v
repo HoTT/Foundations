@@ -1,8 +1,5 @@
 (** Rules for the inductive type List A, the weak version of lists of type A. **)
 
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-
 Require Export identity.
 
 (* Formation rule. *)

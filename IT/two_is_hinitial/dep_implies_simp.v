@@ -3,10 +3,6 @@
     Simple elim + beta + eta_1 + eta_2 for Two
 **)
 
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-Add Rec LoadPath "../inductive_types".
-
 Require Export identity.
 
 (* We assume the dependent rules for Two. *)

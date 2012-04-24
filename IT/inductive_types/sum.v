@@ -1,8 +1,5 @@
 (** Rules for the inductive type Sum A B, the weak version of A + B. **)
 
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-
 Require Export identity.
 
 (* Formation rule. *)

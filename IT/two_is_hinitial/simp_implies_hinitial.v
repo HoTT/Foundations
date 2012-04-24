@@ -3,9 +3,6 @@
     Homotopy-initial two-algebra.
 **)
 
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-
 Require Export identity.
 Require Export two_algebras.
 

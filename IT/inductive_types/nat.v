@@ -1,8 +1,5 @@
 (** Rules for the inductive type Nat, the weak version of natural numbers. **)
 
-Add Rec LoadPath "../univalent_foundations/Generalities".
-Add Rec LoadPath "../identity".
-
 Require Export identity.
 
 (* Formation rule. *)
